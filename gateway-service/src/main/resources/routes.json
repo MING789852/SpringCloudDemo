@@ -1,0 +1,20 @@
+[
+  {
+    "id": "temp1-service",
+    "predicates": [{
+      "name": "Path",
+      "args": {"_genkey_0":"/temp1/**"}
+    }],
+    "filters": [],
+    "uri": "lb://temp1-service"
+  },
+  {
+    "id": "temp2-service",
+    "predicates": [{
+      "name": "Path",
+      "args": {"_genkey_0":"/one/**", "_genkey_1":"/temp2/**"}
+    }],
+    "filters": [],
+    "uri": "lb://temp2-service"
+  }
+]

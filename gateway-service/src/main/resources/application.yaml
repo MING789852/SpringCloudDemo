@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+auth:
+  pathList:
+    - /**/unAuth/**
+route:
+  #是否开启动态路由，开启则需要把/resources/routes.json的内容拷贝到nacos注册中心
+  dynamic: false

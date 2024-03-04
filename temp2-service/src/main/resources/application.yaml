@@ -1,0 +1,8 @@
+server:
+  port: 8082
+db:
+  host: 127.0.0.1
+  database: temp2
+  username: root
+  password: root
+

@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: temp1-service
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+      config:
+        file-extension: yaml
+        shared-configs:
+          - data-id: shared-seata.yaml
+          - data-id: shared-jdbc.yaml

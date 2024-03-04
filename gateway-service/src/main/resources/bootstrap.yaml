@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+#    静态路由
+#    gateway:
+#      routes:
+#        - id: temp1-service
+#          uri: lb://temp1-service
+#          predicates:
+#            - Path=/test/**
+#        - id: temp2-service
+#          uri: lb://temp2-service
+#          predicates:
+#            - Path=/test/**,/one/**
